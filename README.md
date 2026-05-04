@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏙️ AI Real Estate Customer Support Agent
 
-## Getting Started
+> An AI-powered SaaS chatbot for real estate companies that automates customer support, answers property inquiries, and improves lead conversion using OpenAI.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Product Vision
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Modern real estate companies receive hundreds of daily inquiries about properties, pricing, and availability.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This AI agent acts as a **24/7 intelligent sales assistant**, helping businesses:
+- Respond instantly to customers
+- Automate repetitive inquiries
+- Improve lead response time
+- Reduce operational cost
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Built specifically with **Dubai real estate market workflows in mind**.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Key Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🤖 AI-powered real estate chatbot (OpenAI integration)
+- 🏠 Handles property-related customer inquiries
+- ⚡ Instant smart responses (no delays)
+- 💬 Clean conversational UI
+- 🧠 Context-aware AI system prompt (real estate trained behavior)
+- 🧩 Modular architecture for scaling into SaaS
+- 📊 Ready for database + CRM integration
+- ☁️ Cloud-ready for deployment (Vercel / AWS)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🖥️ Demo Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Tech Stack
+
+| Layer        | Technology |
+|--------------|------------|
+| Frontend     | Next.js 15 (App Router) |
+| Styling      | Tailwind CSS |
+| Backend API  | Next.js API Routes |
+| AI Engine    | OpenAI GPT API |
+| Database     | Supabase (prepared) |
+| Language     | TypeScript |
+
+---
+
+## 📁 System Architecture
+
+
+User (Browser)
+      ↓
+Chat UI (Next.js)
+      ↓
+API Route (/api/chat)
+      ↓
+OpenAI GPT Model
+      ↓
+AI Response
+      ↓
+Frontend Display
+
+🧩 Future SaaS Roadmap
+🏢 Multi-tenant SaaS (multiple real estate companies)
+📊 Admin dashboard for agents
+💾 Chat memory + CRM integration
+📱 WhatsApp / Telegram AI assistant
+🏠 Live property database integration
+📈 Analytics dashboard (lead insights)
+🚀 Production deployment (Vercel + AWS)
+
+
+👨‍💻 Author
+
+Valentina Kiyungi
+Full-Stack Developer | AI Builder | SaaS Engineer
